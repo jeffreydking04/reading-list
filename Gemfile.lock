@@ -1,0 +1,19 @@
+PATH
+  remote: ../frame
+  specs:
+    frame (0.1.0)
+      rack (~> 1.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (1.6.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  frame!
+
+BUNDLED WITH
+   1.12.5
