@@ -2,11 +2,13 @@ PATH
   remote: ../frame
   specs:
     frame (0.1.0)
+      erubis (~> 2.7)
       rack (~> 1.6)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    erubis (2.7.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
