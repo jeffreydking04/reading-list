@@ -1,6 +1,7 @@
 class BooksController < Frame::Controller
   def welcome
     'Welcome'
-    render :welcome, book: "Eloquent Ruby"
+    @book = "Eloquent Ruby"
+    render :welcome, book: @book
   end
 end

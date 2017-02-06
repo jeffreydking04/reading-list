@@ -1,0 +1,1 @@
+The router we are implementing here parses the url to determine controller and action, then calls the correct method.  What our framework does not have is a routes.rb file that declares routes, which is how Rails does it.  Declaring routes allows the developer to map a url to any action desired.
