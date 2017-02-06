@@ -8,8 +8,8 @@ class BooksController < Frame::Controller
     render :index, books: Book.all
   end
 
-  def show(arg)
-    book = Book.find(arg)
+  def show
+    book = Book.find(params['id'])
     render :show, book: book
   end
 end
