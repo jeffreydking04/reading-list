@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
-gem 'frame', path: '../frame'
-gem "rack-test", require: "rack/test"
+gem 'frame', path: "../frame"
+gem 'rack'
+gem 'sqlite3'
